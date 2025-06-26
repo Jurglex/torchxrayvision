@@ -28,7 +28,7 @@ import torchxrayvision as xrv
 parser = argparse.ArgumentParser()
 # parser.add_argument('-f', type=str, default="", help='')
 parser.add_argument('--name', type=str)
-parser.add_argument('--output_dir', type=str, default="/lotterlab/lotterb/project_data/autopreprocess/torchxrayvisionmodels/")
+parser.add_argument('--output_dir', type=str, default="/lotterlab/users/alex/ditch")
 parser.add_argument('--dataset', type=str, default="chex")
 parser.add_argument('--dataset_dir', type=str, default="/lotterlab/datasets/")
 parser.add_argument('--model', type=str, default="resnet50")
